@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="noButton" layoutX="137.0" layoutY="228.0" mnemonicParsing="false" onAction="#answerNo" text="NO" />
+      <Button fx:id="yesButton" layoutX="70.0" layoutY="228.0" mnemonicParsing="false" onAction="#answerYes" text="YES" />
+      <Label fx:id="responseLabel" layoutX="14.0" layoutY="189.0" prefHeight="17.0" prefWidth="225.0" text="RESPONSE" />
+      <Label fx:id="accuracyLabel" layoutX="14.0" layoutY="159.0" text="ACCURACY" />
+      <Label fx:id="questionLabel" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="225.0" text="QUESTION" />
+   </children>
+</AnchorPane>
